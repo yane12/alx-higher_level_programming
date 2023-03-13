@@ -1,4 +1,8 @@
 #!/usr/bin/python3
-def print_list_integer(my_list=[]):
-    for i in my_list:
-        print('{:d}'.format(i))
+def no_c(my_string):
+    new_str = ''
+    for i in my_string:
+        if i != 'C' and i != 'c':
+            new_str += i
+
+    return new_str
