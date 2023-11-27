@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defined in README.md"""
+"""Defined in Rectangle"""
 
 class Rectangle():
     """rectangle class for storing rectangle data
