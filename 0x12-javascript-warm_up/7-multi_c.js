@@ -1,4 +1,5 @@
 #!/usr/bin/node
+
 const x = parseInt(process.argv[2]);
 if ( typeof(x) === 'number' && !isNaN(x)) {
 	if ( x > 0 ) {
@@ -10,3 +11,4 @@ if ( typeof(x) === 'number' && !isNaN(x)) {
 else {
 	console.log('Missing number of occurrences');
 }
+
